@@ -104,6 +104,14 @@ nav{
     align-items: center;
     padding: 3rem 0;
 }
+
+#desktopmedia{
+    display: block;
+}
+#mobilemedia{
+    display: none;
+}
+
 .hero{
     background-image: url(../images/hero.png);
     background-repeat: no-repeat;
@@ -228,14 +236,21 @@ nav{
     /* .hero-content{
         margin-left: 2rem;
     } */
+
+  
     .content{
         margin-left: 2rem;
         padding-top: 5rem;
     }
     .wrapper{
-        display:block;
+        display: block;
     }
-   
+    #desktopmedia{
+        display: none;
+    }
+    #mobilemedia{
+        display: block;
+    }
     .footer{
         margin-top: 3rem;
     }

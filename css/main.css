@@ -35,7 +35,7 @@ h2{
 h3{
     font-size: 5rem;
     color: #fff;
-    font-family: 'Nunito:700',
+    text-align: center;
 }
 
 h4{
@@ -47,16 +47,23 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 4rem;
+    padding: 30px 30px 0 30px;
+    margin: 0 auto;
+    padding-top: 3rem;
   }
 
-/* .menu{
-    display: inline;
-    font-size: 1.6rem;
-    padding-top: 2rem;
-    text-align: right;
-  } */
+.nav-buttons{
+    display: flex;
+    list-style-type: none;
+}
 
+.nav-buttons li{
+    margin-left: 3rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: #262626;
+    font-size: 2rem;
+}
 
 .button{
     text-decoration: none;
@@ -69,9 +76,14 @@ nav{
     color: #fff;
     font-size: 2rem;
     background-color: #7D00FD;
-    border-radius: 25px;
-    padding: 1rem 2rem;
+    border-radius: 27px;
+    padding: 1.4rem 1.75rem;
 }
+
+/* .container{
+    margin: 0 auto;
+    width: 90%;
+} */
 
 .wrapper{
     display: grid;
@@ -85,28 +97,52 @@ nav{
     grid-template-columns: 1fr 2fr;
     padding: 0;
 }
-#hero{
+#hero img{
     width: 100%;
 }
 
 .download1{
     padding: 4rem 0;
 }
+.download2{
+    display: block;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
 .fivescreens{
     display: block;
     margin: 0 auto;
+    width: 80%;
+    padding-top: 13rem;
+    padding-bottom: 5rem;
 }
 .content{
     padding: 5rem;
     margin-left: 4rem;
 }
-.image{
-    display: block;
-    width: 100%;
-    margin: 0 auto;
+.image img{
+  width: 100%;
 }
 
 .footer{
     background-color: #7D00FD;
-    padding: 7rem 0;
+    padding: 7rem 0 3rem 0
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 4rem 4rem 0 4rem;
+}
+
+.social ul{
+    display: flex;
+    float: right;
+    list-style-type: none;
+}
+
+.social li{
+    margin: 0 20px;
 }
